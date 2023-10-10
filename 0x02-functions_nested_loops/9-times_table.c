@@ -1,5 +1,9 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * times_table - main function
+ * Return: 0
+ */
 void times_table(void)
 {
 	int i,  j, result;
