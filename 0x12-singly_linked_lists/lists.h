@@ -5,8 +5,8 @@
 #include <string.h>
 #include <stddef.h>
 
-/** 
- * strcut lists_s - singley linked lsits
+/**
+ * strcut list_s - singley linked lsits
  * @str: string - (malloc  stringed ting)
  * @len: the length ofthe string
  * @next: points to the next nde
@@ -14,9 +14,9 @@
 
 typedef struct list_s
 {
-	char *str;
-	unsigned int len;
-	struct list_s *next;
+char *str;
+unsigned int len;
+struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
